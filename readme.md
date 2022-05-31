@@ -2,7 +2,7 @@
 ----
 #### 1. Terminal and VScode (est ~1 hour)
 - cd, ls, md ( mkdir ), ni ( touch ), mv
-- chocolaty ( homebrew )
+- chocolatey ( homebrew )
   - node.js
   - vscode
   - mongo
