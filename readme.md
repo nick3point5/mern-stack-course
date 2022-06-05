@@ -1,7 +1,7 @@
 #MERN stack (est ~15 hours)
 ----
 #### 1. Terminal and VScode (est ~1 hour)
-- cd, ls, md ( mkdir ), ni ( touch ), mv
+- cd, ls, ni ( touch ), mv, md ( mkdir ), tree
 - chocolatey ( homebrew )
   - node.js
   - vscode
