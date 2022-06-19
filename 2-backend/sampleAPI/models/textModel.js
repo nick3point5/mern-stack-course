@@ -9,5 +9,4 @@ const textModel = new Schema({
 	},
 })
 
-
 export default mongoose.model('text',textModel)
