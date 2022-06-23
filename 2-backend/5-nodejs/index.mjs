@@ -2,4 +2,4 @@ function surprise() {
 	return ("boo!!!!")
 }
 
-module.exports = surprise
+export default surprise

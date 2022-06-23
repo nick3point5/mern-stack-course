@@ -33,6 +33,7 @@
 #### 7. HTML & CSS & front-end JS (est ~2 hours)
 - tags
 - classes & ids
+- DOM
 - events & listeners
 - common styles ( background-color, margin, padding, font-size, etc... )
 - flex box
