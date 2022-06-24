@@ -1,0 +1,9 @@
+{
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "vscode-notebook-cell",
+			"pattern": "c:\\code\\teaching\\mern-stack-course\\1-basics\\1-Termial\\Termial.ipynb"
+		}
+	]
+}
