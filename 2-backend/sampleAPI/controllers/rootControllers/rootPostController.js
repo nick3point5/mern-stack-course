@@ -4,7 +4,7 @@ export const rootPostController = async (req, res) => {
 	try {
 		const objData = req.body
 
-		obj = await Text.create(objData)
+		const obj = await Text.create(objData)
 		res.json(obj)
 	} catch (error) {
 		res.status(400)
