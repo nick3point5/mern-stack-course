@@ -14,3 +14,10 @@ choco install mongodb-compass mongodb nodejs postman gh git vscode -y
 ```sh
 brew install --cask visual-studio-code && brew install --cask postman && brew install --cask mongodb-compass && brew install mongodb-community && brew install node && brew install git && brew install gh
 ```
+## If you use Linux:
+You probably know what you're doing, but:
+<a href="https://nick3point5.github.io/hint/">Hint</a>
+
+
+
+
