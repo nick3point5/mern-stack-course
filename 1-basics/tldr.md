@@ -12,7 +12,7 @@ choco install mongodb-compass mongodb nodejs postman gh git vscode -y
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ```sh
-brew install --cask visual-studio-code && brew install --cask postman && brew install --cask mongodb-compass && brew install mongodb-community && brew install node && brew install git && brew install gh
+brew install --cask visual-studio-code && brew install --cask postman && brew install --cask mongodb-compass && brew tap mongodb/brew && brew install mongodb-community && brew install node && brew install git && brew install gh
 ```
 ## If you use Linux:
 You probably know what you're doing, but:
