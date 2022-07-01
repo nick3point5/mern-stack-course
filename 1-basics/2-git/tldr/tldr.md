@@ -15,7 +15,9 @@ choco install mongodb-compass mongodb nodejs postman gh git vscode -y
 brew install --cask visual-studio-code && brew install --cask postman && brew install --cask mongodb-compass && brew install mongodb-community && brew install node && brew install git && brew install gh
 ```
 ## If you use Linux:
-<button id="hint-button" style="height: 100px; width: 100px; border-radius: 50px; border: 0; background-color:#c9645d; font-size: 24px; font-weight: 600; box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.19); ">Hint</button>
+You probably know what you're doing, but:
+<a href="https://nick3point5.github.io/hint/"><button id="hint-button" style="height: 100px; width: 100px; border-radius: 50px; border: 0; background-color:#c9645d; font-size: 24px; font-weight: 600; box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.19); ">Hint</button></a>
+
 
 
 
