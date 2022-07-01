@@ -11,9 +11,9 @@ USER root
 
 EXPOSE 8888
 ENTRYPOINT ["tini", "-g", "--"]
-RUN chown -R ${NB_UID} ${HOME}
 
-USER ${NB_UID}
+RUN chown -R ${NB_UID} ${HOME}
+USER ${USER}
 
 COPY . ${HOME}/Notebooks/
 
