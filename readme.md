@@ -1,10 +1,9 @@
 #MERN stack (est ~15 hours)
 ----
-#### 1. Terminal and VScode (est ~1 hour)
-- 
+#### 1. Terminal (est ~1 hour)
+- [Terminal](./1-basics/1-Terminal/Terminal.ipynb)
 #### 2. Git (est ~2 hours)
-- add, commit, checkout, branch
-- merge, push, pull, clone
+- [Git](./1-basics/2-git/git.ipynb)
 #### 3. JavaScript (est ~4 hours)
 - "Hello World"
 - variables, types, arrays
