@@ -1,8 +1,8 @@
 #MERN stack (est ~15 hours)
 ----
-#### 1. Terminal (est ~1 hour)
+#### 1. Terminal (est ~1 hour) [![Terminal Basics](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F1-Terminal%2FTerminal.ipynb)
 - [Terminal](./1-basics/1-Terminal/Terminal.ipynb)
-#### 2. Git (est ~2 hours)
+#### 2. Git (est ~2 hours) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=%2F1-basics%2F2-git%2Fgit.ipynb)
 - [Git](./1-basics/2-git/git.ipynb)
 #### 3. JavaScript (est ~4 hours)
 - "Hello World"
