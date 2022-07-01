@@ -16,7 +16,7 @@ brew install --cask visual-studio-code && brew install --cask postman && brew in
 ```
 ## If you use Linux:
 You probably know what you're doing, but:
-<a href="https://nick3point5.github.io/hint/"><button id="hint-button" style="height: 100px; width: 100px; border-radius: 50px; border: 0; background-color:#c9645d; font-size: 24px; font-weight: 600; box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.19); ">Hint</button></a>
+<a href="https://nick3point5.github.io/hint/">Hint</a>
 
 
 
