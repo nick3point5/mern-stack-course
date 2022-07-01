@@ -1,11 +1,7 @@
 #MERN stack (est ~15 hours)
 ----
 #### 1. Terminal and VScode (est ~1 hour)
-- cd, ls, ni ( touch ), mv, md ( mkdir ), tree
-- chocolatey ( homebrew )
-  - node.js
-  - vscode
-  - mongo
+- 
 #### 2. Git (est ~2 hours)
 - add, commit, checkout, branch
 - merge, push, pull, clone
