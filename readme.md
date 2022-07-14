@@ -4,14 +4,8 @@
 - [Terminal](./1-basics/1-Terminal/Terminal.ipynb)
 #### 2. Git (est ~2 hours) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=%2F1-basics%2F2-git%2Fgit.ipynb)
 - [Git](./1-basics/2-git/git.ipynb)
-#### 3. JavaScript (est ~4 hours)
-- "Hello World"
-- variables, types, arrays
-- functions
-- objects
-- if else
-- loops ( for, while, foreach )
-- async
+#### 3. JavaScript (est ~4 hours) [![JavaScript Part 1](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=mern-stack-course%2F1-basics%2F3-JavaScript-1%2FJavaScript-1.ipynb)
+- [JavaScript Part 1](./1-basics/3-JavaScript-1/JavaScript-1.ipynb)
 #### 4. Node & Express.js (est ~2 hours)
 - npm
 - fetch
