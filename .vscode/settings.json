@@ -5,5 +5,6 @@
 			"scheme": "vscode-notebook-cell",
 			"pattern": "c:\\code\\teaching\\mern-stack-course\\1-basics\\1-Termial\\Termial.ipynb"
 		}
-	]
+	],
+	"livePreview.defaultPreviewPath": "/3-frontend/8-React/my-app/index.html"
 }
