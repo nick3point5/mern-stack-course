@@ -1,10 +1,13 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import bodyParser from 'body-parser'
+import dotenv  from "dotenv"
 import {rootRouter} from './controllers/index.js'
 
-const connectionString = 'mongodb://127.0.0.1:27017/sampleAPI'
-const PORT = 3000
+dotenv.config()
+
+const connectionString = process.env.MONGO_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/sampleAPI'
+const PORT = process.env.PORT || 3000
 
 mongoose.connect(connectionString, {
 	useNewUrlParser: true,
