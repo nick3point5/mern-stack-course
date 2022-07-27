@@ -9,7 +9,7 @@ export const rootPutController = async (req, res) => {
 
 		const obj = await Text.findByIdAndUpdate(id, updateObj, { new: true })
 
-		if(obj === null) throw {error: "item not found"}
+		if (obj === null) throw { error: 'item not found' }
 
 		res.json(obj)
 	} catch (error) {

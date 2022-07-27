@@ -7,7 +7,7 @@ import { rootDeleteController } from './rootDeleteController.js'
 
 export const rootRouter = express.Router()
 
-	rootRouter
+rootRouter
 	.get('/', rootGetController)
 	.get('/:id', rootGetIdController)
 	.post('/', rootPostController)
