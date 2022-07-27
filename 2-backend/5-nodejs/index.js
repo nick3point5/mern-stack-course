@@ -1,5 +1,5 @@
 function surprise() {
-	return ("boo!!!!")
+	return 'boo!!!!'
 }
-console.log("Did you hear that?")
+console.log('Did you hear that?')
 module.exports = surprise
