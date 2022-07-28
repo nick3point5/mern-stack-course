@@ -7,12 +7,9 @@
 #### 3. JavaScript (est ~4 hours)
 - [JavaScript Part 1](./1-basics/3-JavaScript-1/JavaScript-1.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F3-JavaScript-1%2FJavaScript-1.ipynb)
 - [JavaScript Part 2](./1-basics/4-JavaScript-2/JavaScript-2.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F4-JavaScript-2%2FJavaScript-2.ipynb)
-#### 4. Node & Express.js (est ~2 hours)
-- npm
-- fetch
-- http methods ( get, post, put, delete )
-- middleware
-#### 5. MongoDB with Node & Express (est ~1 hour)
+#### 4. Node.js (est ~1 hour)
+- [Node.js](./2-backend/5-nodejs/nodejs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=2-backend%2F5-nodejs%2Fnodejs.ipynb)
+#### 5. Express.js and MongoDB (est ~1 hour)
 - mongoose
 - schema ( model )
 - querying Mongo
