@@ -11,6 +11,7 @@ COPY . ${HOME}/Notebooks/
 WORKDIR ${HOME}/Notebooks/
 
 USER root
+RUN npm install -g yarn
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 

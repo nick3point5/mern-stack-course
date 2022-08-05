@@ -1,4 +1,4 @@
-#MERN stack (est ~15 hours)
+# MERN stack (est ~15 hours)
 ----
 #### 1. Terminal (est ~1 hour)	
 - [Terminal](./1-basics/1-Terminal/Terminal.ipynb) [![Terminal Basics](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F1-Terminal%2FTerminal.ipynb)
@@ -10,12 +10,8 @@
 - [JavaScript Part 2](./1-basics/4-JavaScript-2/JavaScript-2.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F4-JavaScript-2%2FJavaScript-2.ipynb)
 #### 5. Node.js (est ~1 hour)
 - [Node.js](./2-backend/5-nodejs/nodejs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=2-backend%2F5-nodejs%2Fnodejs.ipynb)
-#### 6. Express.js and MongoDB (est ~1 hour)
-- mongoose
-- schema ( model )
-- querying Mongo
-- .env
-- Mongo DB atlas connection
+#### 6. Express.js (est ~1 hour)
+- [Express.js](./2-backend/6-expressJS/expressJS.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=2-backend%2F6-expressJS%2FexpressJS.ipynb)
 #### 7. HTML & CSS & front-end JS (est ~2 hours)
 - tags
 - classes & ids
