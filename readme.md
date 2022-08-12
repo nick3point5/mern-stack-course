@@ -13,12 +13,7 @@
 #### 6. Express.js (est ~1 hour)
 - [Express.js](./2-backend/6-expressJS/expressJS.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=2-backend%2F6-expressJS%2FexpressJS.ipynb)
 #### 7. HTML & CSS & front-end JS (est ~2 hours)
-- tags
-- classes & ids
-- DOM
-- events & listeners
-- common styles ( background-color, margin, padding, font-size, etc... )
-- flex box
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=3-frontend%2F7-HTML-CSS-DOM%2FHTML-CSS-DOM.ipynb)
 #### 8. React (est ~2 hours)
 - jsx
 - functional components
