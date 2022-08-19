@@ -15,8 +15,4 @@
 #### 7. HTML & CSS & front-end JS (est ~2 hours)
 - [HTML-CSS-DOM](./3-frontend/7-HTML-CSS-DOM/HTML-CSS-DOM.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=3-frontend%2F7-HTML-CSS-DOM%2FHTML-CSS-DOM.ipynb)
 #### 8. React (est ~2 hours)
-- jsx
-- functional components
-- render life cycle
-- useState hook
-- useEffect hook
+- [HTML-CSS-DOM](./3-frontend/8-React/React.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=3-frontend%2F8-React%2FReact.ipynb)
