@@ -1,19 +1,15 @@
 import { useContext } from 'react'
 import { Form } from './components/Form'
+import { Button } from './components/Button'
 import { GlobalContextProvider } from './contexts/GlobalContext/GlobalContextProvider'
-
-import { GlobalContext } from './contexts/GlobalContext/GlobalContext'
 
 function App() {
 	const buttonNames = ["button","bbbutton","bbbbbbbbutton"]
 
-
-
-
 	return (
 		<GlobalContextProvider>
 			<div className='App'>
-				<Form />
+				<Button />
 			</div>
 		</GlobalContextProvider>
 

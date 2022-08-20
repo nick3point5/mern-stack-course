@@ -1,22 +1,19 @@
-import { useState, useEffect, useRef, useContext } from 'react'
-import { GlobalContext } from '../contexts/GlobalContext/GlobalContext'
+// src/components/Button.jsx
+import { useState, useEffect } from "react"
 
 export const Button = (props) => {
-	const refCount = useRef( null)
-	const [globalState, setGlobalState] = useContext(GlobalContext)
-
+	const [count, setCount] = useState(0)
 	function handleClick() {
-		setGlobalState({
-			...globalState,
-			count: globalState.count + 1
-		})
-		console.log(globalState)
+		setCount(count+1)
 	}
-
-
+	useEffect(()=>{
+		return ()=> {
+			console.log("unmount")
+		}
+	},[])
 	return (
 		<div className='button-component'>
-			<button  ref={refCount} onClick={handleClick}> {globalState.count}</button>
+			<button onClick={handleClick}>{props.name} {count}</button>
 		</div>
 	)
 }
