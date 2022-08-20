@@ -13,10 +13,12 @@ export const EditPage = () => {
 	const target = globalState.targetData[index]
 
 	function handleClick() {
-		navigate(`/${params.id}`)
+		navigate(`/target/${params.id}`)
 	}
 
-	if(!target) return
+	if(!target) {
+		return
+	}
 
 	return (
 		<div className='EditPage'>

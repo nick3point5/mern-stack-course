@@ -5,7 +5,7 @@ export const Target = ({ target }) => {
 	const navigate = useNavigate()
 
 	function handleClick() {
-		navigate(`/${_id}`)
+		navigate(`/target/${_id}`)
 	}
 
 	return (

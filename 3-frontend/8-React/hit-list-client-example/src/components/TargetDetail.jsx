@@ -4,8 +4,13 @@ export const TargetDetail = ({ target }) => {
 	const { name, status, weakness, location, age, _id } = target
 	const navigate = useNavigate()
 	function handleEdit() {
-		navigate(`/edit/${_id}`)
+		navigate(`/target/edit/${_id}`)
 	}
+
+	if(!target) {
+		return
+	}
+
 	return (
 		<div className='TargetDetail' onClick={handleEdit}>
 			<h2>name</h2>
@@ -22,7 +27,7 @@ export const TargetDetail = ({ target }) => {
 			)}
 			{weakness.length ? (
 				<>
-					<h2>weakness{weakness.length > 1 ? 'es' : ''}</h2>
+					<h2>weakness{weakness.length === 1 ? '' : 'es'}</h2>
 					<ul>
 						{weakness.map((weakness, key) => {
 							return <li key={key}>{weakness}</li>

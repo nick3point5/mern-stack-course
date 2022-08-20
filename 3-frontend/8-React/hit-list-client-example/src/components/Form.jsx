@@ -2,6 +2,7 @@ import { useState, useContext } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { TargetAPI } from '@/api'
 import { GlobalContext } from '@/contexts'
+import { WeakPointInput } from '@/components'
 
 const defaultBody = {
 	name: '',
@@ -57,7 +58,7 @@ export const Form = ({ target }) => {
 			const newGlobalState = {
 				...globalState,
 			}
-			
+
 			const index = globalState.targetData.findIndex(
 				(item) => item._id === params.id
 			)
@@ -79,9 +80,7 @@ export const Form = ({ target }) => {
 
 		newBody[key] = value
 
-		setBody({
-			...newBody,
-		})
+		setBody(newBody)
 	}
 
 	function handleWeaknessChange(event, key) {
@@ -90,16 +89,12 @@ export const Form = ({ target }) => {
 			...body,
 		}
 
-		const { weakness } = newBody
+		newBody.weakness[key] = value
 
-		weakness[key] = value
-
-		setBody({
-			...newBody,
-		})
+		setBody(newBody)
 	}
 
-	function addWeakness(event) {
+	function handleWeaknessAdd(event) {
 		event.preventDefault()
 		const newBody = {
 			...body,
@@ -109,7 +104,7 @@ export const Form = ({ target }) => {
 		setBody(newBody)
 	}
 
-	function removeWeakness(event, key) {
+	function handleWeaknessRemove(event, key) {
 		event.preventDefault()
 		const newBody = {
 			...body,
@@ -120,7 +115,10 @@ export const Form = ({ target }) => {
 	}
 
 	return (
-		<form onSubmit={target ? once(handlePut) : once(handlePost)} className='Form'>
+		<form
+			onSubmit={target ? once(handlePut) : once(handlePost)}
+			className='Form'
+		>
 			<div className='input-container'>
 				<label htmlFor='name-input'>name</label>
 				<input
@@ -166,28 +164,18 @@ export const Form = ({ target }) => {
 			</div>
 			<div className='weakness-container'>
 				<ul className='weaknesses-list'>
-					<label name='status'>
-						weaknesses <button onClick={addWeakness}>+</button>
+					<label name='weaknesses'>
+						weaknesses <button onClick={handleWeaknessAdd}>+</button>
 					</label>
 					{weakness.map((weakPoint, i) => {
 						return (
-							<div>
-								<li>
-									<input
-										type='text'
-										name={`weakPoint${i}`}
-										value={weakPoint}
-										key={i * 2}
-										onChange={(event) => handleWeaknessChange(event, i)}
-									></input>
-									<button
-										onClick={(event) => removeWeakness(event, i)}
-										key={i * 2 + 1}
-									>
-										-
-									</button>
-								</li>
-							</div>
+							<WeakPointInput
+								weakPoint={weakPoint}
+								i={i}
+								handleWeaknessChange={handleWeaknessChange}
+								handleWeaknessRemove={handleWeaknessRemove}
+								key={i}
+							/>
 						)
 					})}
 					<br />

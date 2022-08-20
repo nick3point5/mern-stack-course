@@ -9,10 +9,9 @@ function App() {
 	return (
 		<GlobalContextProvider>
 			<div className='App'>
-				<Button />
+				<Form />
 			</div>
 		</GlobalContextProvider>
-
 	)
 }
 

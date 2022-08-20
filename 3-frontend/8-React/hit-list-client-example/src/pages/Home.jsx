@@ -9,7 +9,7 @@ export const Home = () => {
 	const navigate = useNavigate()
 
 	function handleClick() {
-		navigate('/new')
+		navigate('/target/new')
 	}
 
 	return (
