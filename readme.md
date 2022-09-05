@@ -1,4 +1,5 @@
 # MERN stack (est ~15 hours)
+This is a course was created for the Healthy Gamer tech community. The goal for this course is from zero experience to a full-stack web application with JavaScript.
 ----
 #### 1. Terminal (est ~1 hour)	
 - [Terminal](./1-basics/1-Terminal/Terminal.ipynb) [![Terminal Basics](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nick3point5/mern-stack-course/HEAD?labpath=1-basics%2F1-Terminal%2FTerminal.ipynb)
